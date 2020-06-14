@@ -68,10 +68,12 @@ header a  {
 }
 
 .section-title  {
+    flex: 0 0 10px;
     color: var(--primary);
     font-size: 45px;
     border-right: 3px solid var(--primary);
     padding: 15px;
+    text-align: right;
 }
 
 .section-content    {
@@ -81,6 +83,7 @@ header a  {
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 
 .sections   {
@@ -108,6 +111,3 @@ header a  {
     display: inline;
 }
 
-.p  {
-    margin: 5% 0p
-}

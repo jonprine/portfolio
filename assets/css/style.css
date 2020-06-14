@@ -14,7 +14,7 @@
 
 body   {
     background-color: var(--light);
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 header  {
@@ -48,4 +48,39 @@ header a  {
     font-size: 24px;
     border-bottom: 3px solid var(--secondary);
     margin: 5px;
+}
+
+.hero {
+    background-image: url("../images/02-hero-bg.jpg");
+    background-size: cover;
+    background-position: cover;
+    padding: 10% 5% 15px 10%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.hero h3    {
+    padding: 5px;
+    font-size: 30px;
+    color: var(--tertiary);
+    background: var(--secondary);
+}
+
+.section-title  {
+    color: var(--primary);
+    font-size: 45px;
+    border-right: 3px solid var(--primary);
+    padding: 15px;
+}
+
+.section-content    {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row;
+}
+
+.sections   {
+    margin: 10px 3%;
+    padding: 10px 3%;
 }

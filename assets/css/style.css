@@ -21,12 +21,31 @@ header  {
     background-color: var(--tertiary);
     padding: 5px;
     display: flex;
-    flex-flow: row;
+    flex-flow: row; 
+    justify-content: flex-start;
+    align-items: center;
 }
 
 header h1   {
+    font-size: 60px;
     padding: 5px;
     margin: 0;
     background-color: var(--secondary);
     color: var(--tertiary);
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav  {
+    padding: 0 0 0 40%;
+}
+
+header a  {
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 24px;
+    border-bottom: 3px solid var(--secondary);
+    margin: 5px;
 }

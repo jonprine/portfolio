@@ -15,6 +15,7 @@
 body   {
     background-color: var(--light);
     color: var(--primary);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header  {
@@ -83,4 +84,24 @@ header a  {
 .sections   {
     margin: 10px 3%;
     padding: 10px 3%;
+}
+
+.section-content .listings  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-content .listings ul li a {
+    color: var(--tertiary);
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 5px 30px;
+    padding: 0px;
+    border-bottom: 3px solid var(--primary);
+    text-decoration: none;
+}
+
+.section-content .listings ul li    {
+    display: inline;
 }

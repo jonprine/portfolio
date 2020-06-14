@@ -79,6 +79,8 @@ header a  {
     padding: 0px;
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .sections   {
@@ -97,11 +99,15 @@ header a  {
     font-size: 22px;
     font-weight: lighter;
     margin: 5px 30px;
-    padding: 0px;
+    padding: 0px 20px;
     border-bottom: 3px solid var(--primary);
     text-decoration: none;
 }
 
 .section-content .listings ul li    {
     display: inline;
+}
+
+.p  {
+    margin: 5% 0p
 }

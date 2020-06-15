@@ -113,3 +113,33 @@ header a  {
 p   {
     margin: 10px 5%;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.grid-item  {
+    display: flex;
+}
+
+#surf-report    {
+    background-image: url("../images/02-portfolio-4.jpg");   
+}
+
+#led    {
+    background-image: url("../images/02-portfolio-1.jpg");
+}
+
+#calculator {
+    background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#horiseon   {
+    background-image: url("../images/02-portfolio-3.jpg");
+}
+
+#run-buddy  {
+    background-image: url("../images/02-run-buddy.jpg");
+}

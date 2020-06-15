@@ -12,3 +12,8 @@ https://jonprine.github.io/portfolio/
 
 ## Contribution
 Made By jonprine
+
+## Screenshot
+Screenshot of finished portfolio
+![Portfolio](./assets/images/screenshot1.png)
+![Portfolio](./assets/images/screenshot2.png)

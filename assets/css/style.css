@@ -77,8 +77,8 @@ header a  {
 }
 
 .section-content    {
-    margin: 25px 0;
-    padding: 25px 0;
+    margin: 15px 10px 15px 0;
+    padding: 15px 0px 10px 0px;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -116,8 +116,8 @@ p   {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-gap: 20px;
     padding: 5px;
     margin: 0 auto;
@@ -129,40 +129,38 @@ p   {
     flex-flow: row;
     justify-content: center;
     border: 3px solid var(--secondary);
+    padding: 5px;
+}
+
+.grid-item span {
+    padding: 65px 60px;
 }
 
 #run-buddy    {
     background-image: url(../images/02-run-buddy.jpg);
     background-size: 100%;
-    grid-column: 1 / 4;
-    grid-row: 1 / 4;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
      
 }
 
 #surf-report   {
     background-image: url("../images/02-portfolio-2.jpg");
     background-size: 100%;
-    grid-column: 1 / 3;
-    grid-row: 4 / 6;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
 }
 
 #horiseon   {
     background-image: url("../images/02-portfolio-3.jpg");
     background-size: 100%;
-    grid-column: 4 / 6;
+    grid-column: 3 / 4;
     grid-row: 1 / 3;
 }
 
-#led  {
+#led        {
     background-image: url("../images/02-portfolio-1.jpg");
     background-size: 100%;
-    grid-column: 3 / 4;
-    grid-row:  4 / 6;
-}
-
-#calculator {
-    background-image: url("../images/02-portfolio-4.jpg");
-    background-size: 100%;
-    grid-column: 1 / 3;
-    grid-row: 4 / 6;
+    grid-column: 2 / 3;
+    grid-row:  3 / 4;
 }

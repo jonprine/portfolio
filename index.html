@@ -1,95 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" a href="./assets/css/style.css" />
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
+  <!-- main logo / nav -->
+  <header>
+    <h1>Portfolio</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+      <a href="#">Resume</a>
+    </nav>
+  </header>
 
-    <!-- Navigator -->
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2>Jon Prine</h2>
+    </div>
+  </section>
 
-    <header>
-        <h1>Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
-             </ul>
-        </nav>
-    </header>
-
-    <!-- Hero section -->
-
-    <section class="hero">
-        <h3>Jon Prine</h3>
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+            I'm very excited about learning all there is to know about full stack development to further my skillset in my current industry and open doors to new opportunities.
+        </p>
+      </div>
     </section>
 
+    <!-- portfolio grid -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="grid-container">
 
-    <section class="sections">
-
-        <!-- About Me section -->
-
-        <section id="#about-me" class="section-content">
-            <h2 class="section-title">About Me</h2>
-            <div>
-                <p>
-                I'm very excited about learning all there is to know about full stack development to further my skillset in my current industry and open doors to new opportunities.
-                </p>
-
-            </div>
-        </section>
-
-        <!-- Work section -->
-
-        <section id="work" class="section-content">
-            <h2 class="section-title">Work</h2>
-
-            <div class="grid-container">
-                
-                 <div class="grid-item" id="run-buddy">
-                   <span></span>
-                </div>
-                
-                
+        <a href="https://adamkeyser45.github.io/newsbythemap/" class="grid-item surf-report">
+          <div>
+            <h3>News by the Map</h3>
+            <span>Javascript/jQuery/Bulma/API</span>
+          </div>
+        </a>
         
-                <div class="grid-item" id="surf-report">
-                    <span></span>
-                </div>
+        <a href="#" class="grid-item led-wall">
+          <div>
+            <h3>Bone Apple Tea</h3>
+            <span>Node/Sequelize/Handlebars/Passport</span>
+          </div>
+        </a>
+        <a href="https://jonprine.github.io/weather-dashboard/" class="grid-item react-calc">
+          <div>
+            <h3>Weather Dashboard</h3>
+            <span>JavaScript/API/Bootstrap</span>
+          </div>
+        </a>
+
+        <a href="https://serene-falls-33864.herokuapp.com/" class="grid-item pastel-puzzles">
+          <div>
+            <h3>Tech Blog</h3>
+            <span>Node/Sequelize/Handlebars</span>
+          </div>
+        </a>
+
     
+        <a href="https://jonprine.github.io/coding-quiz/" class="grid-item run-buddy">
+          <div>
+            <h3>Coding Quiz</h3>
+            <span>Javascript/HTML/CSS</span>
+          </div>
+        </a>
 
-        
-                <div class="grid-item" id="horiseon">
-                    <span>Horiseon</span>
-                </div>
-
-                <div class="grid-item" id="led">
-                    <span>LED Wall</span>
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- Contact section -->
-
-        <section id="contact-me" class="section-content">
-        <h2 class="section-title">Contact Me</h2>
-            <div class="listings">
-                <ul>
-                    <li><a href="#phone">555-555-5555</a><li>
-                    <li><a href="mailto:jonprine@gmail.com">Email</a></li>
-                    <li><a href="https://github.com/jonprine/">Github</a></li>
-                    <li><a href="https://twitter.com">Twitter</a></li>
-                    <li><a href="https://spotify.com">Spotify</a></li>
-                </ul>
-            </div>
-        </section>
-
+      </div>
     </section>
-    
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+15555555555">555.555.5555</a>
+          <a href="mailto:jonprine@gmail.com">jonprine@gmail.com</a>
+          <a href="https://github.com/jonprine">GitHub</a>
+          <a href="#">Twitter</a>
+          <a href="#">Spotify</a>
+        </address>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
